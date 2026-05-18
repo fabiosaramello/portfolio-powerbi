@@ -28,8 +28,7 @@ The dashboard was built to answer 5 strategic business questions:
 ---
 
 ## 📊 Dashboard Preview
-![Dashboard Preview](imagens/dashboard.gif)
-*(Replace with dashboard_preview.png if you are not using a GIF)*
+![Dashboard Preview](dashboard_preview.png)
 
 ----
 
