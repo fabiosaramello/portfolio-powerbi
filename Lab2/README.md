@@ -31,12 +31,7 @@ The dashboard effectively answers the 5 strategic exercises:
 * **DAX** (Calculated Columns and Performance Measures)
 
 ## 📊 Dashboard Preview
-![Dashboard Preview](dashboard_preview.png)
-
-## 💡 Key Insights
-* **Target Variance:** The overall sales average stands at $246.42, which falls short of the company's monthly target of $350.00, indicating a need for strategic price or volume adjustments.
-* **Shipping Contribution:** Standard Class shipping is the absolute driver of sales volume, represented by the highest bar in the Waterfall analysis.
-* **Margin Stability:** The profit margin over time line chart reveals significant drops during specific periods, flagging potential spikes in shipping costs or drops in product pricing that warrant deeper operational review.
+![Dashboard Preview](dashboard_preview2.png)
 
 ---
 ## 🚀 How to View
