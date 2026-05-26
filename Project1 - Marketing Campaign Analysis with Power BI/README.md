@@ -24,20 +24,20 @@ This project encompasses the entire data analysis workflow, from extraction to d
       DadosMarketing[Gasto com Utilidades] + DadosMarketing[Gasto com Vestuario]
   )
 
+## 🚀 Navigating the Dashboard
 
-🚀 Navigating the Dashboard
 ### 1. Customer View
 Provides a demographic summary of the 2,000 customers, including average salary and preferred purchasing channels.
-![Customer View](Project1 - Marketing Campaign Analysis with Power BI/dash1.png)
+![Customer View](<Project1 - Marketing Campaign Analysis with Power BI/dash1.png>)
 
 ### 2. Behavioral View
 Deep dive into spending habits using Decomposition Trees and analyzing family structure impact.
-![Behavioral View](Project1 - Marketing Campaign Analysis with Power BI/dash2.png)
+![Behavioral View](<Project1 - Marketing Campaign Analysis with Power BI/dash2.png>)
 
 ### 3. Campaign View
 Conversion rates and specific audience targeting to analyze marketing effectiveness.
-![Campaign View](Project1 - Marketing Campaign Analysis with Power BI/dash3.png)
+![Campaign View](<Project1 - Marketing Campaign Analysis with Power BI/dash3.png>)
 
 ### 4. POS View
 Geographic and temporal sales distribution from 2018 to 2023.
-![POS View](Project1 - Marketing Campaign Analysis with Power BI/dash4.png)
+![POS View](<Project1 - Marketing Campaign Analysis with Power BI/dash4.png>)
