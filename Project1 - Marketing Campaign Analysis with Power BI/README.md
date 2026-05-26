@@ -47,39 +47,34 @@ Conversion rates and specific audience targeting to analyze marketing effectiven
 Geographic and temporal sales distribution from 2018 to 2023.
 ![POS View](dash4.png)
 
-#####################################
+##############################################################################################################################################################################################################################
+🇧🇷 Versão em Português
 
-Análise de Campanhas de Marketing com Power BI 📊
-📌 Resumo Executivo
+# Análise de Campanhas de Marketing com Power BI 📊
+
+## 📌 Resumo Executivo
 Este projeto entrega uma solução abrangente de Business Intelligence para avaliar a performance de campanhas de marketing, mapear o comportamento de compra do cliente e rastrear o fluxo global de receitas. Ao transformar dados brutos e não otimizados em um relatório interativo de 4 páginas no Power BI, este projeto capacita os tomadores de decisão a direcionar orçamentos de marketing e segmentar clientes com base em dados.
 
-🏢 Cenário de Negócios e Objetivos
+## 🏢 Cenário de Negócios e Objetivos
 Uma empresa global precisava de visibilidade sobre o ROI de suas campanhas de marketing recentes e um entendimento mais profundo de sua base de clientes. Os principais objetivos desta análise foram:
+1. Identificar o perfil demográfico dos clientes mais rentáveis.
+2. Entender como a estrutura familiar e a escolaridade impactam o gasto total.
+3. Calcular a taxa de conversão das campanhas de marketing e identificar padrões de sucesso.
+4. Acompanhar as tendências de receita em diferentes mercados internacionais ao longo do tempo.
 
-Identificar o perfil demográfico dos clientes mais rentáveis.
-
-Entender como a estrutura familiar e a escolaridade impactam o gasto total.
-
-Calcular a taxa de conversão das campanhas de marketing e identificar padrões de sucesso.
-
-Acompanhar as tendências de receita em diferentes mercados internacionais ao longo do tempo.
-
-⚙️ Arquitetura de Dados e Pipeline Técnico
+## ⚙️ Arquitetura de Dados e Pipeline Técnico
 Este projeto abrange todo o fluxo de análise de dados, desde a extração até a visualização:
 
-ETL e Qualidade de Dados (Power Query): Realização de limpeza e perfilamento rigoroso dos dados. Outliers críticos foram identificados e removidos (ex: erros graves de digitação na coluna "Salário Anual") para garantir a precisão das métricas e preservar a integridade das escalas visuais.
-
-Modelagem de Dados: Estruturação do modelo relacional para permitir cruzamento de filtros de forma fluida entre dimensões geográficas, demográficas e temporais.
-
-Expressões DAX: Criação de medidas dinâmicas para agregações precisas. Uma implementação central foi o cálculo do gasto total cruzando categorias e respeitando o contexto de linha por meio de funções iteradoras:
-
-Snippet de código
-TotalGasto = SUMX(
-    DadosMarketing, 
-    DadosMarketing[Gasto com Alimentos] + DadosMarketing[Gasto com Brinquedos] + 
-    DadosMarketing[Gasto com Eletronicos] + DadosMarketing[Gasto com Moveis] + 
-    DadosMarketing[Gasto com Utilidades] + DadosMarketing[Gasto com Vestuario]
-)
+* **ETL e Qualidade de Dados (Power Query):** Realização de limpeza e perfilamento rigoroso dos dados. Outliers críticos foram identificados e removidos (ex: erros graves de digitação na coluna "Salário Anual") para garantir a precisão das métricas e preservar a integridade das escalas visuais.
+* **Modelagem de Dados:** Estruturação do modelo relacional para permitir cruzamento de filtros de forma fluida entre dimensões geográficas, demográficas e temporais.
+* **Expressões DAX:** Criação de medidas dinâmicas para agregações precisas. Uma implementação central foi o cálculo do gasto total cruzando categorias e respeitando o contexto de linha por meio de funções iteradoras:
+  ```dax
+  TotalGasto = SUMX(
+      DadosMarketing, 
+      DadosMarketing[Gasto com Alimentos] + DadosMarketing[Gasto com Brinquedos] + 
+      DadosMarketing[Gasto com Eletronicos] + DadosMarketing[Gasto com Moveis] + 
+      DadosMarketing[Gasto com Utilidades] + DadosMarketing[Gasto com Vestuario]
+  )
 🚀 Navegando pelo Dashboard
   
 1. Visão do Cliente
