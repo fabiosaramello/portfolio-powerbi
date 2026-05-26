@@ -1,6 +1,7 @@
 [🇺🇸 English Version](#-english-version) | [🇧🇷 Versão em Português](#-versão-em-português)
 
 ---
+<div id="english"></div>
 
 ## 🇺🇸 English Version
 
@@ -47,8 +48,10 @@ Conversion rates and specific audience targeting to analyze marketing effectiven
 Geographic and temporal sales distribution from 2018 to 2023.
 ![POS View](dash4.png)
 
-##############################################################################################################################################################################################################################
-🇧🇷 Versão em Português
+########################################################################################################
+
+
+## 🇧🇷 Versão em Português
 
 # Análise de Campanhas de Marketing com Power BI 📊
 
